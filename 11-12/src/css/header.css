@@ -1,0 +1,5 @@
+.header{width: 152px;height: 30px;border: 1px solid #333;border-bottom: none;position: relative;}
+.header li{height: 30px;color: #018fd9;line-height: 30px;float: left;text-align: center;cursor: pointer;border-right: 1px solid #333;}
+.header li:last-child{border-right: none;}
+.header li a{padding: 0 5px;}
+.header li a.active{border-bottom: 1px solid #fff;display: block;}

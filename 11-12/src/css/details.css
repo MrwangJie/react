@@ -1,0 +1,31 @@
+.wrap_case{width: 100%;height:100%;overflow: hidden;font-size: 14px;cursor: pointer;}
+/*左侧*/
+.wrap_case .box_case{width:1200px;min-width: 1200px;margin: 0 auto;height:600px;box-sizing: border-box;border: 1px solid black; }
+.wrap_case .left{width:200px;float: left;border-right: 1px solid black;box-sizing: border-box;}
+.wrap_case .left_top{height: 200px;border-bottom: 1px solid black;box-sizing: border-box;}
+.wrap_case .left_top li{text-align: left;margin-left:20px;line-height: 30px;}
+.wrap_case .left_top li:nth-of-type(1){padding-top: 30px;}
+.wrap_case .left_bottom{height:370px;}
+.wrap_case .left_bottom li{padding-left: 20px;text-align: left;line-height:30px;width:180px;}
+.wrap_case .left_bottom li:nth-of-type(1){margin-top: 30px;}
+/*中间*/
+.wrap_case .main{width:798px;float: left;height: 600px;border-right: 1px solid black;box-sizing: border-box;}
+.wrap_case .content{position: relative;}
+.wrap_case .content li{width: 700px;height:400px;background: #ccc;margin:50px;position: absolute;display: none;}
+/*右侧*/
+.wrap_case .right{width: 200px;height:600px;float:right;}
+.wrap_case .right_top{height: 200px;border-bottom: 1px solid black;box-sizing: border-box;}
+.wrap_case .right_bottom ul li:nth-of-type(4){width:180px;height: 1px;display:inline-block;background: black;margin-left: 10px;}
+.wrap_case .right_bottom ul li{line-height: 30px;margin-left: 40px;}
+.wrap_case .right_bottom ul li:nth-of-type(1){margin-left: 20px;margin-top:20px;}
+.wrap_case .right_bottom ul li input{width: 50px;outline: none;}
+.wrap_case .right_bottom button{width:80px;height:30px;margin-top:60px;line-height: 30px;}
+.wrap_case .right_bottom ul:nth-of-type(2) li input{width: 60px;height: 20px;outline: none;border: 1px solid black}
+.wrap_case .report{margin: 0 10px;}
+.wrap_case .pic{position:relative;}
+.wrap_case .pic li{width: 190px;height:150px;background: #ccc;margin-left: 5px;margin-top:10px;position: absolute;display: none;}
+.wrap_case .right_top button{width:50px;height:30px;margin:5px;margin-bottom: 0;line-height: 30px;}
+/*切片切换*/
+.wrap_case .left_bottom li:nth-of-type(1){display: block;}
+.wrap_case .content li:nth-of-type(1){display: block;}
+.wrap_case .pic li:nth-of-type(1){display: block;}
