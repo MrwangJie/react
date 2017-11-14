@@ -1,0 +1,11 @@
+.contain{width: 1200px;margin: 20px auto 0;}
+.main{width: 100%;border: 1px solid #333;padding-top: 20px;}
+.tb_list_con{width: 90%;margin: 10px auto;}
+.tb_list_con .tb_list{width: 100%;border: 1px solid #333;}
+.tb_list_con .tb_list thead th{height: 30px;line-height: 30px;border-right:1px solid #333;}
+.tb_list_con .tb_list tr td{height: 30px;line-height: 30px;text-align: center;border-top: 1px solid #333;border-right:1px solid #333;}
+.tb_list_con .tb_list tr.active{background: #e5e5e5;}
+.tb_list_con .tb_list tr:hover{background: #e5e5e5;}
+
+.tb_list_con .tb_list_bottom{margin-top: 20px;}
+.tb_list_con .lsit_info{text-align: right;float: right;}

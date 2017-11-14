@@ -1,0 +1,30 @@
+[
+	{
+	"binganhao":123,
+	"binglihao":123,
+	"position":"乳腺",	
+	"name":"张三",
+	"sex":"男",
+	"age":21,
+	"time":"207-11-11",
+	"id":123
+	},{
+	"binganhao":123,
+	"binglihao":123,
+	"position":"乳腺",	
+	"name":"张三",
+	"sex":"男",
+	"age":22,
+	"time":"207-11-11",
+	"id":456
+	},{
+	"binganhao":123,
+	"binglihao":123,
+	"position":"乳腺",	
+	"name":"张三",
+	"sex":"男",
+	"age":23,
+	"time":"207-11-11",
+	"id":678
+	}
+]
